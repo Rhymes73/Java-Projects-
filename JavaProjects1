@@ -1,6 +1,49 @@
 #This is the project to create a banking application 
 
+import java.util.Scanner;
 
+
+
+
+Public class BankingApp
+{
+    public static void main(String[] args) {
+
+
+System.out.println("Are you a new customer? Y/N")
+
+char newCustomer = UserInput.next()charAt(0);
+
+switch (newCustomer)
+
+    case 'Y'
+
+    system.out.println("Please create a new account, Enter your name and current balance");
+        // I need to figure out how to get the user to enter their information to create their account 
+
+
+case 'N'
+
+system.out.println("Please enter your name so we can look you up in the system")
+
+
+
+
+
+    Scanner custNameInfo = new Scanner(System.in); 
+    system.out.println("Please enter your name number so we can verify that you have an account");
+
+		String CusName = custNameInfo.nextLine(); 
+    
+    Scanner moneyBal - new Scanner(System.in);
+    system.out.println("Please enter your bank account number so our system can have access to your records")
+        double moneyBal = custBalance.nextLine(); 
+
+
+
+
+	}
+}
 
 
 
